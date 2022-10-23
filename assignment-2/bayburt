@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>İl Tanıtım Ödevi Sayfa</title>            
+    </head>    
+    <body>
+        <h1> Bayburt İli Tanıtımı </h1>    
+        <img src="Görseller/bayburt.jpg" alt="Bayburt" title="Bayburt" width="500" height="300">
+        <li><a href="genelbilgiler.html">Genel Bilgi</a>"</li>
+        <li><a href="tarih.html">Tarihçe</a>"</li>
+        <li><a href="yemek.html">Yemek Kültürü</a>"</li>
+        <li><a href="gezilecekyerler.html">Gezilecek Yerler</a>"</li>
+        <li><a href="genelbilgiler.html">Genel Bilgi</a>"</li>
+    </body>
+        
+
+</html>
