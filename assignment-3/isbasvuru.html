@@ -3,7 +3,7 @@
         <meta charset="utf-8" />
         <title>İş Başvuru Formu</title>
     </head>
-    <table border="2" bgcolor="Lavender" width="25%" align="center">
+    <table border="2" bgcolor="Lavender" width="30%" align="center">
     <form>
     <body style="text-align:center;">
         
@@ -11,7 +11,7 @@
             <td style="text-align: center; vertical-align: middle;" rowspan="1"><h1 style="color:black;"><br> İŞ BAŞVURU FORMU</h1></td>
         </tr><br>
         <tr bgcolor= "Tan">
-            <td style="text-align: center; vertical-align: middle;"><h4><br> GENEL BİLGİLER </h4></td>     
+            <td style="text-align: center; vertical-align: middle;"><h4><br> KİŞİSEL BİLGİLER </h4></td>     
         </tr>
 
         <form action="example4.html" 
@@ -30,6 +30,14 @@
                               <input type="radio" name="cinsiyet" value="K"/> Kadın</td> 
         </tr>
         <tr>
+            <td>Medeni Durumunuz: <input type="radio" name="medenid" value="Ev"/> Evli
+                                  <input type="radio" name="medenid" value="Be"/> Bekar</td> 
+        </tr>
+        <tr>
+            <td>Uyruğunuz: <input type="text" name="uyruk"
+                                    placeholder="Uyruk"></td> 
+        </tr>
+        <tr>
             <td>Doğum tarihiniz: <input type="date" name="dtarih"
                                     placeholder="Ad"></td> 
         </tr>            
@@ -37,15 +45,7 @@
             <td>Doğum yeriniz: <input type="text" name="dyeri"
                                     placeholder="Şehir"></td> 
         </tr>            
-        <tr>
-            <td>E-Posta Adresiniz: <input type="email" name="e-postanız"
-                                    placeholder="E-posta"></td>                       
-        </tr>           
 
-        <tr>
-            <td>Ev telefonu: <input type="text" name="e-postanız"
-                                    placeholder="Ev telefonu"></td>                       
-        </tr>     
         <tr bgcolor= "Tan">
             <td style="text-align: center; vertical-align: middle;"><h4><br> İLETİŞİM BİLGİLERİ </h4></td>                      
         </tr>     
@@ -58,6 +58,11 @@
                                     placeholder="Cep telefonu"></td>                       
         </tr>     
         <tr>
+            <td>E-Posta Adresiniz: <input type="email" name="e-postanız"
+                                    placeholder="E-posta"></td>                       
+        </tr>           
+  
+        <tr>
             <td>Adresiniz: <br><textarea name="adres" cols="50" rows="5"></textarea></td>                       
         </tr>      
 
@@ -66,20 +71,26 @@
         </tr>     
         
         <tr>
-            <td>İş Pozisyonu: <input type="text" name="pozisyon"
-                                        placeholder="Pozisyon"></td>                       
-        </tr>         
+            <td>Çalışmak İstediğiniz Pozisyon:<input list="pozisyon" name="pos">
+                                   <datalist id="pozisyon">
+                                   <option value="Satış Danışmanlığı">
+                                   <option value="Dönüşüm Direktörü">
+                                   <option value="Veritabanı Uzmanı">
+                                   <option value="Finans Direktörü">
+                                    </datalist>                    
+        </tr>  
         <tr>
-            <td>Ehliyetiniz: <input type="radio" name="ehliyet" value="EH"/> Var
+            <td>Ehliyetiniz: <input type="radio" name="ehliyet" value="EH"/> B Sınıfı veya Üstü
                              <input type="radio" name="ehliyet" value="EH"/> Yok</td>                       
         </tr>  
         <tr>
             <td>Öğrenim Durumu:<input list="egitim" name="egitimseviyesi">
                                    <datalist id="egitim">
-                                   <option value="İlkokul">
-                                   <option value="Ortaokul">
-                                   <option value="Lise">
-                                   <option value="Üniversite">
+                                   <option value="İlköğretim">
+                                   <option value="Orta öğretim">
+                                   <option value="Lisans">
+                                   <option value="Yüksek Lisans">
+                                   <option value="Doktora">
                                     </datalist>                    
         </tr>  
         <tr>
@@ -97,8 +108,8 @@
         <input type="submit" value="Başvuruyu Gönderin">
         </form>
         <p>
-            Gerekli bilgileri doldurduktan sonra<br>
-            başvuruyu gönderebilirsiniz.
+            Gerekli bilgileri doldurduktan sonra
+            başvuruyu gönderebilirsiniz.<br> Tarafınıza 72 saat içerisinde dönüş yapılacaktır.
         </p>
     </body>
 </html>
