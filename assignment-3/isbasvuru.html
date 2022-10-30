@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>İş Başvuru Formu</title>
+    </head>
+    <table border="2" bgcolor="Lavender" width="25%" align="center">
+    <form>
+    <body style="text-align:center;">
+        
+        <tr bgcolor="">
+            <td style="text-align: center; vertical-align: middle;" rowspan="1"><h1 style="color:black;"><br> İŞ BAŞVURU FORMU</h1></td>
+        </tr><br>
+        <tr bgcolor= "Tan">
+            <td style="text-align: center; vertical-align: middle;"><h4><br> GENEL BİLGİLER </h4></td>     
+        </tr>
+
+        <form action="example4.html" 
+                    method="GET" target="_blank">
+
+        <tr>
+            <td>Adınız: <input type="text" name="ad"
+                                    placeholder="Ad"></td> 
+        </tr>
+        <tr>
+            <td>Soyadınız: <input type="text" name="soyad"
+                                    placeholder="Soyad"></td> 
+        </tr>
+        <tr>
+            <td>Cinsiyetiniz: <input type="radio" name="cinsiyet" value="E"/> Erkek
+                              <input type="radio" name="cinsiyet" value="K"/> Kadın</td> 
+        </tr>
+        <tr>
+            <td>Doğum tarihiniz: <input type="date" name="dtarih"
+                                    placeholder="Ad"></td> 
+        </tr>            
+        <tr>
+            <td>Doğum yeriniz: <input type="text" name="dyeri"
+                                    placeholder="Şehir"></td> 
+        </tr>            
+        <tr>
+            <td>E-Posta Adresiniz: <input type="email" name="e-postanız"
+                                    placeholder="E-posta"></td>                       
+        </tr>           
+
+        <tr>
+            <td>Ev telefonu: <input type="text" name="e-postanız"
+                                    placeholder="Ev telefonu"></td>                       
+        </tr>     
+        <tr bgcolor= "Tan">
+            <td style="text-align: center; vertical-align: middle;"><h4><br> İLETİŞİM BİLGİLERİ </h4></td>                      
+        </tr>     
+        <tr>
+            <td>İş telefonu: <input type="text" name="e-postanız"
+                                    placeholder="İş telefonu"></td>                       
+        </tr>     
+        <tr>
+            <td>Cep telefonu: <input type="text" name="e-postanız"
+                                    placeholder="Cep telefonu"></td>                       
+        </tr>     
+        <tr>
+            <td>Adresiniz: <br><textarea name="adres" cols="50" rows="5"></textarea></td>                       
+        </tr>      
+
+        <tr bgcolor= "Tan">
+            <td style="text-align: center; vertical-align: middle;"><h4><br> DİĞER BİLGİLER </h4></td>                      
+        </tr>     
+        
+        <tr>
+            <td>İş Pozisyonu: <input type="text" name="pozisyon"
+                                        placeholder="Pozisyon"></td>                       
+        </tr>         
+        <tr>
+            <td>Ehliyetiniz: <input type="radio" name="ehliyet" value="EH"/> Var
+                             <input type="radio" name="ehliyet" value="EH"/> Yok</td>                       
+        </tr>  
+        <tr>
+            <td>Öğrenim Durumu:<input list="egitim" name="egitimseviyesi">
+                                   <datalist id="egitim">
+                                   <option value="İlkokul">
+                                   <option value="Ortaokul">
+                                   <option value="Lise">
+                                   <option value="Üniversite">
+                                    </datalist>                    
+        </tr>  
+        <tr>
+            <td>Yabancı Dilleriniz:<br><input type="checkbox" name="dil" value="motosiklet"/>İngilizce<br>
+                                    <input type="checkbox" name="dil" value="resim"/>Almanca<br>
+                                    <input type="checkbox" name="dil" value="yüzmek"/>Fransızca<br>
+                                    <input type="checkbox" name="dil" value="koşmak"/>Rusça<br>
+                                    <input type="checkbox" name="dil" value="yüzmek"/>İspanyolca</td>                       
+        </tr>  
+        <tr>
+            <td>Eklemek istedileriniz: <br><textarea name="ekbilgi" cols="50" rows="3"></textarea></td>                       
+        </tr>    
+                        
+        </table><br>    
+        <input type="submit" value="Başvuruyu Gönderin">
+        </form>
+        <p>
+            Gerekli bilgileri doldurduktan sonra<br>
+            başvuruyu gönderebilirsiniz.
+        </p>
+    </body>
+</html>
